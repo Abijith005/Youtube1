@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+
+}
+.suggessions-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    column-gap: 15px;
+}
+.sug-but{
+    display: flex;
+    height: 37px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+.sug-but:hover{
+    background-color: rgb(192, 188, 188);
+    transition: 1s;
+    
+}
+.thumbnail-picture{
+    width: 100%;
+    border-radius: 15px;
+}
+.thumbnail{
+    margin-bottom: 10px; 
+    cursor: pointer; 
+    position: relative;
+    
+}
+
+.time{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(33, 30, 30);
+    width: 38px;
+    text-align: center;
+    position: absolute;
+    bottom:14px;
+    right: 6px;
+    color: #fff;  
+}
+.video-title{
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.channel-pic{
+    margin-right: 10px;
+}
+.profile-picture{
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.grid-preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 20px;
+
+}
+.video-description{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+    cursor: pointer;
+}
+.channel-name{
+    font-family: Roboto;
+    font-size: 13px;
+    color: rgb(132, 130, 130);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
